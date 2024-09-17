@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: configure-app-gateway
+  name: configure-app-gateway-v1
 spec:
   template:
     spec:
