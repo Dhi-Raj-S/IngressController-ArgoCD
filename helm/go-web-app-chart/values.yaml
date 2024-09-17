@@ -24,7 +24,7 @@ ingress:
 
 resourceGroup: "MC_go-web-app_go-web-app_centralindia"
 gatewayName: "ingress-appgateway"
-probeName: "pb-default-go-web-app-80-go-web-app"
+probeName: "pb-default-go-web-app"
 hostName: "localhost"
 path: "/home"
 
