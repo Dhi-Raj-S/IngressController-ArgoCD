@@ -16,7 +16,7 @@ spec:
               --gateway-name {{ .Values.gatewayName }} \
               --name {{ .Values.probeName }} \
               --protocol Http \
-              --host-name {{ .Values.hostName }} \
+              --host {{ .Values.hostName }} \
               --path {{ .Values.path }} \
               --interval 30 \
               --timeout 5 \
