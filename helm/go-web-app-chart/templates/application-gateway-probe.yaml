@@ -20,5 +20,5 @@ spec:
               --path {{ .Values.path }} \
               --interval 30 \
               --timeout 5 \
-              --unhealthy-threshold 3
+              --threshold 3
       restartPolicy: Never
